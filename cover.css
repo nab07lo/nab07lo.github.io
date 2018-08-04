@@ -61,7 +61,7 @@ body
 {
     display: table-cell;
     vertical-align: top;
-    background-image: url('assets/alex-flores-championshipzedfinal-alexflores.jpg');
+    background-image: url('assets/IMAGES%20TRABALGOA%20SITRE.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -512,7 +512,6 @@ body
     margin-right: auto;
     padding-left: 0px;
     padding-right: 0px;
-    background-image: url('assets/Untitled-1.png');
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: top;
@@ -1297,6 +1296,7 @@ button.gamma-btn-sspause:before
 {
     margin-bottom: 271px;
     height: 500px;
+    width: auto;
 }
 
 .int-column-about
@@ -2175,35 +2175,40 @@ input[type=button]:focus
 .div-space02-imgtag
 {
     margin-top: 44px;
-    width: 64%;
+    width: 50%;
     height: 448px;
     overflow: hidden;
-    background-image: url('assets/marek-denko-hereventualhesitation-fullres-signed.jpg');
+    background-image: url('assets/IMAGES%20TRABALGOA%20SITRE.png');
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 0px -450px;
+    right: 8rem;
+    position: absolute;
+    background-size: auto 100%;
+    margin-left: 1px;
 }
 
 .div-space02-imgtag02
 {
     margin-top: 44px;
-    width: 35%;
-    height: 203px;
-    background-image: url('assets/william-pare-jobin-side-03.jpg');
+    width: 42%;
+    background-image: url('assets/bhv.png');
     background-repeat: no-repeat;
     background-size: 120%;
+    position: absolute;
+    height: 12%;
+    background-position: -50px;
 }
 
 .div-space02-imgtag03
 {
-    width: 35%;
-    height: 234px;
+    width: 42%;
+    height: 16%;
     margin-top: 10px;
-    background-image: url('assets/2845fbb54a00bb472caab5f16fd4decd.jpg');
+    background-image: url('assets/girl%20with%20the%20glasses%20sexy02.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 0px -50px;
     margin-right: 10px;
+    position: absolute;
+    bottom: 28rem;
 }
 
 .3dimgsize
@@ -2214,13 +2219,13 @@ input[type=button]:focus
 {
     text-shadow: none;
     color: #000000;
-    width: 455px;
+    width: 33%;
     text-transform: none;
-    margin-right: 14px;
     text-align: left;
-    margin-top: 50px;
-    float: right;
-    margin-bottom: 50px;
+    float: left;
+    position: absolute;
+    right: 19rem;
+    bottom: 10rem;
 }
 
 .div-buttom-play {
