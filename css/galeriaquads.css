@@ -402,3 +402,12 @@ null
 {
 }
 
+.img12-galeria
+{
+    width: 25.87%;
+    height: 48%;
+    float: left;
+    margin: 9.5px;
+    overflow: hidden;
+}
+
