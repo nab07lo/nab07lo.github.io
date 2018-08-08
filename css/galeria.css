@@ -2563,7 +2563,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a000000', e
     margin-left: -16px;
     z-index: 15;
     color: #bdbdbd;
+    opacity: 0;
 }
+
 
 .blur-effect
 {
