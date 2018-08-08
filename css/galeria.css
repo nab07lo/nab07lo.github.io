@@ -93,10 +93,10 @@ body
 }
 
 .masthead-nav > li > a {
-  padding-right: 13px;
-  padding-left: 13px;
+  padding-right: 20%;
+  padding-left: 20%;
   font-size: 17px;
-  font-weight: bold;
+  font-weight: regular;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 5px solid transparent;
@@ -123,10 +123,11 @@ body
     {
         float: left;
     }
-    .masthead-nav
-    {
-        float: left;
-    }
+}
+
+.masthead-nav
+{
+    float: left;
 }
 
 /*
@@ -206,10 +207,11 @@ body
 
 .size
 {
-    width: 1041px;
+    width: 100%;
     font-family: sansation;
     font-weight: bolder;
     font-size: 28px;
+    margin-left: 12%;
 }
 
 .navbar-size {
@@ -268,7 +270,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a000000', e
 
 .container-nav-pag
 {
-    height: 100%;
+    height: 51%;
     position: relative;
 }
 
@@ -2557,7 +2559,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a000000', e
 .esc-key
 {
     position: absolute;
-    top: 49px;
+    top: 47px;
     margin-left: -16px;
     z-index: 15;
     color: #bdbdbd;
@@ -2602,19 +2604,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a000000', e
 
 .container-galeria-quads
 {
-    width: 400px;
-    height: 626px;
-    position: relative;
+    width: 32%;
+    height: 618px;
     -webkit-box-shadow: 10px 36px 70px -15px rgba(0,0,0,0.7);
     -moz-box-shadow: 10px 36px 70px -15px rgba(0,0,0,0.7);
     box-shadow: 10px 36px 70px -15px rgba(0,0,0,0.7);
-    overflow: hidden;
+    margin-right: -42rem;
 }
 
 .contanier-galeria-all
 {
     margin-left: 0px auto;
-    margin-right: px auto;
+    margin-right: 0px auto;
 }
 
 .text-galeria {
@@ -2687,5 +2688,40 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a000000', e
 .contanier-galeria-all
 {
     width: 100%;
+    overflow: auto;
+}
+
+.divbutton-menu
+{
+    width: 48px;
+    height: 61rem;
+    float: left;
+}
+
+.divtudo
+{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.divgaleriaseparation01
+{
+    width: 28%;
+    height: auto;
+    margin-right: 0.2%;
+}
+
+.divgaleriaseparation02
+{
+    width: 34%;
+    height: auto;
+}
+
+.divgaleriaseparation03
+{
+    width: 37%;
+    height: auto;
+    margin-left: 0.2%;
 }
 

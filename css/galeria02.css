@@ -12,10 +12,6 @@
     padding: 0;
 }
 
-html, body
-{
-}
-
 svg
 {
     display: block;
@@ -143,14 +139,14 @@ svg
   will-change: transform;
 }
 
-.slide
-{
+.slide {
     position: absolute;
     top: 0;
     width: 414px;
     height: 100%;
     overflow: hidden;
-}
+    
+
 
 .slide.active .slide__overlay,
 .slide.active .slide__text
@@ -459,5 +455,7 @@ svg
     background-size: 100%;
     height: 20px;
     margin-bottom: 24px;
+}
+
 }
 
