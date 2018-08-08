@@ -5612,7 +5612,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 {
     position: relative;
     display: block;
-    padding: 25px 15px;
+    padding: 29% 0% 24%;
 }
 
 .nav > li > a:hover,
